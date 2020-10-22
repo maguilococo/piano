@@ -204,7 +204,7 @@ public class Piano extends javax.swing.JFrame {
         getContentPane().add(NOTAs6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 250, -1, 30));
 
         btnMenu.setBackground(new java.awt.Color(184, 121, 20));
-        btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/back FINAL TAMAÑO.png"))); // NOI18N
+        btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/back_piano.png"))); // NOI18N
         btnMenu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnMenu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,7 +214,7 @@ public class Piano extends javax.swing.JFrame {
         getContentPane().add(btnMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 30, 40));
 
         btnFolk.setBackground(new java.awt.Color(184, 121, 20));
-        btnFolk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/cancion FINAL TAMAÑO.png"))); // NOI18N
+        btnFolk.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/chords_song.png"))); // NOI18N
         btnFolk.setBorder(null);
         btnFolk.setBorderPainted(false);
         btnFolk.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -226,7 +226,7 @@ public class Piano extends javax.swing.JFrame {
         getContentPane().add(btnFolk, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 50, 30, 30));
 
         btnFC.setBackground(new java.awt.Color(184, 121, 20));
-        btnFC.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/cancion FINAL TAMAÑO.png"))); // NOI18N
+        btnFC.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/chords_song.png"))); // NOI18N
         btnFC.setBorder(null);
         btnFC.setBorderPainted(false);
         btnFC.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -399,7 +399,7 @@ public class Piano extends javax.swing.JFrame {
         getContentPane().add(btnE2, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 130, 80, 260));
 
         btnAlegria.setBackground(new java.awt.Color(184, 121, 20));
-        btnAlegria.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/cancion FINAL TAMAÑO.png"))); // NOI18N
+        btnAlegria.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/chords_song.png"))); // NOI18N
         btnAlegria.setBorder(null);
         btnAlegria.setBorderPainted(false);
         btnAlegria.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -411,7 +411,7 @@ public class Piano extends javax.swing.JFrame {
         getContentPane().add(btnAlegria, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 80, 30, 30));
 
         jButton1.setBackground(new java.awt.Color(184, 121, 20));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/icon Play.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/play_song.png"))); // NOI18N
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -421,7 +421,7 @@ public class Piano extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 20, 30, 30));
 
         jButton2.setBackground(new java.awt.Color(184, 121, 20));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/icon Play.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/play_song.png"))); // NOI18N
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -431,7 +431,7 @@ public class Piano extends javax.swing.JFrame {
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 80, 30, 30));
 
         jButton3.setBackground(new java.awt.Color(184, 121, 20));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/icon Play.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/play_song.png"))); // NOI18N
         jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -449,7 +449,7 @@ public class Piano extends javax.swing.JFrame {
         });
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 50, 40));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/pant 2 (1).jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/background_piano.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 720, 430));
 
         pack();

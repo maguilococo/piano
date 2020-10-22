@@ -35,7 +35,7 @@
           <Color blue="14" green="79" red="b8" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/piano/back2 tama&#xd1;O.png"/>
+          <Image iconType="3" name="/piano/back_song.png"/>
         </Property>
       </Properties>
       <Events>
@@ -50,7 +50,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/piano/pantALLA 3 2.jpg"/>
+          <Image iconType="3" name="/piano/himno_alegria.jpg"/>
         </Property>
       </Properties>
       <Constraints>

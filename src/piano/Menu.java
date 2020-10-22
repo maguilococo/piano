@@ -45,7 +45,7 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         btnSalir.setBackground(new java.awt.Color(240, 189, 56));
-        btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/exit FINAL.png"))); // NOI18N
+        btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/exit.png"))); // NOI18N
         btnSalir.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -57,7 +57,7 @@ public class Menu extends javax.swing.JFrame {
         btnIniciar.setBackground(new java.awt.Color(184, 121, 20));
         btnIniciar.setFont(new java.awt.Font("SimSun", 1, 14)); // NOI18N
         btnIniciar.setForeground(new java.awt.Color(255, 255, 255));
-        btnIniciar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/play FINAL.png"))); // NOI18N
+        btnIniciar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/start.png"))); // NOI18N
         btnIniciar.setBorder(null);
         btnIniciar.setBorderPainted(false);
         btnIniciar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -79,7 +79,7 @@ public class Menu extends javax.swing.JFrame {
         });
         getContentPane().add(chkTyC, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 420, -1, 20));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/Menu editado final.jpeg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/piano/menu.jpeg"))); // NOI18N
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, -1));
 
         pack();
